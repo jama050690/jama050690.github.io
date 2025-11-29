@@ -1,2 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss";
+
+.container {
+  max-width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+:root {
+  --bg: #ffffff;
+  --login-color: green;
+}
+
+/* MAIN BODY */
+body {
+  background: var(--bg);
+  font-family: var(--font-family);
+}
