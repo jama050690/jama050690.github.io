@@ -30,3 +30,8 @@ const changeMode = () => {
     modeIcon.src = "./public/Dark_mode.svg";
   }
 };
+
+// login section
+document.querySelector(".login").addEventListener("click", () => {
+  window.location.href = "./auth/login.html";
+});
