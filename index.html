@@ -3,14 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="output.css" />
+    <link rel="stylesheet" href="styles.css" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="./css/output.css" />
+
     <title>My Sayt</title>
   </head>
+
   <body>
     <header class="my-5">
       <div class="container flex items-center justify-between">
@@ -31,7 +35,7 @@
             <li class="cursor-pointer">
               <a
                 class="text-2xl underline decoration-transparent hover:decoration-blue-500"
-                href="./user_page/my_contact.html"
+                href="#"
                 >Contact</a
               >
             </li>
@@ -65,11 +69,48 @@
       <div class="section">
         <div class="container">
           <div class="">
-            <img src="./public/photo_2025-11-21_19-33-24.jpg" alt="My photo" />
+            <img
+              class="w-[1200px] h-[800px]"
+              src="./public/photo_2025-11-21_19-33-24.jpg"
+              alt="My photo"
+            />
           </div>
         </div>
       </div>
     </main>
+
+    <footer class="my-[50px]">
+      <div class="container flex gap-10 items-center">
+        <a class="text-2xl color-black" href="#">+998957990034</a>
+        <p class="flex my-4 mx-4">
+          <a href="https://t.me/Jama_9133" target="_blank">
+            <i
+              class="fa-brands fa-telegram w-[80px] bg-[var(--icon-color)] p-3 rounded-full"
+            ></i>
+          </a>
+
+          <!-- LinkedIn -->
+          <a
+            href="https://www.linkedin.com/in/jamshiddin-babajonov-168705382/"
+            target="_blank"
+          >
+            <i
+              class="fa-brands fa-linkedin w-[80px] bg-[var(--icon-color)] p-3 rounded-full"
+            ></i>
+          </a>
+          <a href="https://github.com/jama050690" target="_blank">
+            <i
+              class="fa-brands fa-square-github w-[80px] bg-[var(--icon-color)] p-3 rounded-full"
+            ></i>
+          </a>
+          <a href="https://wa.me/998957990034" target="_blank">
+            <i
+              class="fa-brands fa-whatsapp w-[280px] bg-[var(--icon-color)] p-3 rounded-full"
+            ></i>
+          </a>
+        </p>
+      </div>
+    </footer>
 
     <script src="main.js"></script>
   </body>
