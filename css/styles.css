@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
+@import "tailwindcss";
+
+ul,
+ol {
+  list-style: none;
+}
+
 .container {
   max-width: 1240px;
   padding-left: 20px;
@@ -38,4 +45,26 @@ body {
 
 img.logo {
   filter: var(--logo-filter);
+}
+footer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 100px;
+  background: #0ea5e9;
+}
+.social {
+  display: flex;
+  gap: 20px;
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--icon-color);
+  border-radius: 999px;
+  box-shadow: none;
+}
+.social.wide {
+  width: 64px;
 }
